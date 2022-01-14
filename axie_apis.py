@@ -26,5 +26,7 @@ def get_axie_brief_list(from_, size, sort, auctionType):
   endpoint = "https://graphql-gateway.axieinfinity.com/graphql"
 
   r = requests.post(endpoint, data=payload)
-
+  
   return r.text
+
+  
