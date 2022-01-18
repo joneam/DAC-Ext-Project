@@ -86,8 +86,4 @@ def new_eth_exchange_rate():
   
   return r.text
 
-#test123 = get_axie_brief_list(123,1,1,1)
-#test123 = new_eth_exchange_rate()
-test123 = get_overview_today()
-#test123 = get_parents_brief('1004128','1004108')
-print(test123)
+print(get_overview_today())
