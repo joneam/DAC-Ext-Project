@@ -29,4 +29,23 @@ def get_axie_brief_list(from_, size, sort, auctionType):
   
   return r.text
 
+import requests
+
+
+def get_profile_brief():
+  '''
+  Fetches the user information of the currently logged user
+  '''
+
+  payload = {
+  "operationName": "GetProfileBrief",
+  "query": "query GetProfileBrief {\n  profile {\n    ...ProfileBrief\n    __typename\n  }\n}\n\nfragment ProfileBrief on AccountProfile {\n  accountId\n  addresses {\n    ...Addresses\n    __typename\n  }\n  email\n  activated\n  name\n  settings {\n    unsubscribeNotificationEmail\n    __typename\n  }\n  __typename\n}\n\nfragment Addresses on NetAddresses {\n  ethereum\n  tomo\n  loom\n  ronin\n  __typename\n}\n"
+}
+
+  endpoint = "https://graphql-gateway.axieinfinity.com/graphql"
+
+  r = requests.post(endpoint, data=payload)
   
+  return r.text
+test123 = get_profile_brief()
+print(test123) 
