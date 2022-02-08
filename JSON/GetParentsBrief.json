@@ -1,0 +1,134 @@
+{
+    "data": {
+        "matron": {
+            "id": "1316795",
+            "name": "Axie #1316795",
+            "stage": 4,
+            "class": "Beast",
+            "breedCount": 3,
+            "image": "https://assets.axieinfinity.com/axies/1316795/axie/axie-full-transparent.png",
+            "title": "",
+            "battleInfo": {
+                "banned": false,
+                "__typename": "AxieBattleInfo"
+            },
+            "auction": null,
+            "parts": [
+                {
+                    "id": "eyes-mavis",
+                    "name": "Mavis",
+                    "class": "Bird",
+                    "type": "Eyes",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "ears-nut-cracker",
+                    "name": "Nut Cracker",
+                    "class": "Beast",
+                    "type": "Ears",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "back-jaguar",
+                    "name": "Jaguar",
+                    "class": "Beast",
+                    "type": "Back",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "mouth-axie-kiss",
+                    "name": "Axie Kiss",
+                    "class": "Beast",
+                    "type": "Mouth",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "horn-little-branch",
+                    "name": "Little Branch",
+                    "class": "Beast",
+                    "type": "Horn",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "tail-rice",
+                    "name": "Rice",
+                    "class": "Beast",
+                    "type": "Tail",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                }
+            ],
+            "__typename": "Axie"
+        },
+        "sire": {
+            "id": "1316802",
+            "name": "🏆 HIGH DPS + ENERGY STEAL🏆",
+            "stage": 4,
+            "class": "Beast",
+            "breedCount": 3,
+            "image": "https://assets.axieinfinity.com/axies/1316802/axie/axie-full-transparent.png",
+            "title": "",
+            "battleInfo": {
+                "banned": false,
+                "__typename": "AxieBattleInfo"
+            },
+            "auction": null,
+            "parts": [
+                {
+                    "id": "eyes-neo",
+                    "name": "Neo",
+                    "class": "Bug",
+                    "type": "Eyes",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "ears-innocent-lamb",
+                    "name": "Innocent Lamb",
+                    "class": "Beast",
+                    "type": "Ears",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "back-jaguar",
+                    "name": "Jaguar",
+                    "class": "Beast",
+                    "type": "Back",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "mouth-axie-kiss",
+                    "name": "Axie Kiss",
+                    "class": "Beast",
+                    "type": "Mouth",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "horn-little-branch",
+                    "name": "Little Branch",
+                    "class": "Beast",
+                    "type": "Horn",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "tail-rice",
+                    "name": "Rice",
+                    "class": "Beast",
+                    "type": "Tail",
+                    "specialGenes": null,
+                    "__typename": "AxiePart"
+                }
+            ],
+            "__typename": "Axie"
+        }
+    }
+}

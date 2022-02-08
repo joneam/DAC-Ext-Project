@@ -1,0 +1,28 @@
+{
+    "data": {
+        "marketStats": {
+            "last24Hours": {
+                "count": 66117,
+                "axieCount": 66064,
+                "volume": "1558872549088848857393",
+                "volumeUsd": "4786533.75",
+                "__typename": "SettlementStats"
+            },
+            "last7Days": {
+                "count": 312089,
+                "axieCount": 311762,
+                "volume": "7150819223593725005339",
+                "volumeUsd": "21956661.93",
+                "__typename": "SettlementStats"
+            },
+            "last30Days": {
+                "count": 1269716,
+                "axieCount": 1267828,
+                "volume": "37302397234657356287501",
+                "volumeUsd": "114592591.28",
+                "__typename": "SettlementStats"
+            },
+            "__typename": "MarketSettlementStats"
+        }
+    }
+}

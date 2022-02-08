@@ -1,0 +1,11 @@
+{
+    "data": {
+        "exchangeRate": {
+            "eth": {
+                "usd": 3069.17,
+                "__typename": "ExchangeRateCurrency"
+            },
+            "__typename": "ExchangeRate"
+        }
+    }
+}

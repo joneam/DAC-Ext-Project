@@ -1,0 +1,714 @@
+{
+    "data": {
+        "settledAuctions": {
+            "axies": {
+                "total": 100,
+                "results": [
+                    {
+                        "id": "7634197",
+                        "name": "Axie #7634197",
+                        "image": "https://assets.axieinfinity.com/axies/7634197/axie/axie-full-transparent.png",
+                        "class": "Plant",
+                        "breedCount": 2,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 3,
+                            "results": [
+                                {
+                                    "from": "0x91339266ff093fa7ada1eb2eea33c4b8a76e329a",
+                                    "to": "0xe65928794dcc1db07f368e07f7f98cab3d8ac25c",
+                                    "txHash": "0x6cf9ab0cac21700dde5e0ae9d128c797a94712efbcc27a447c9f77ee879ffa5b",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "18000000000000000",
+                                    "withPriceUsd": "55.279934999999995",
+                                    "fromProfile": {
+                                        "name": "LonPolinpo",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Cubonca+3",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x80e1acbec3a25c171db746c489c1c47da5ec7866",
+                                    "to": "0x1aab21a736ef4e660e403aa08d408cc718267275",
+                                    "txHash": "0x3f756d8f362fed43ea45d293aa05f6b1807cb70f5b87d5f07fc8ded4ea650e27",
+                                    "timestamp": 1636083950,
+                                    "withPrice": "56000000000000000",
+                                    "withPriceUsd": "171.98202",
+                                    "fromProfile": {
+                                        "name": "AcWolf",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Lunaciano6546",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x24963b6befa2b3e9aa929f33c8b31a3b64a9d887",
+                                    "to": "0x80e1acbec3a25c171db746c489c1c47da5ec7866",
+                                    "txHash": "0xbea6ffdbe24a384e486c556c932af9fcf9ca48e19f55090e3f2e843039a33d3d",
+                                    "timestamp": 1634836825,
+                                    "withPrice": "49094675925925926",
+                                    "withPriceUsd": "150.77502744618056",
+                                    "fromProfile": {
+                                        "name": "GujiBull",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "AcWolf",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "8100302",
+                        "name": "Bird",
+                        "image": "https://assets.axieinfinity.com/axies/8100302/axie/axie-full-transparent.png",
+                        "class": "Bird",
+                        "breedCount": 3,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 4,
+                            "results": [
+                                {
+                                    "from": "0xb4d1021d5808e92ec365f3a63e93c377d184dbef",
+                                    "to": "0x1f48747a076123e1e55d96f8992f2d8b8a9b8a66",
+                                    "txHash": "0x06c8a2822663a15954cda91cef4f64816e0d19fe77fa5b361baf75bbaf8b67bd",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "19000000000000000",
+                                    "withPriceUsd": "58.3510425",
+                                    "fromProfile": {
+                                        "name": "DC_20",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "@5kydriven ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xf772702189b409053a49139806ea0f9e40835e4a",
+                                    "to": "0xb4d1021d5808e92ec365f3a63e93c377d184dbef",
+                                    "txHash": "0x65acaf630ba5d122162c0cdb378670e50d3f7c0fd9346cdf05257bf94713a45c",
+                                    "timestamp": 1643805994,
+                                    "withPrice": "15900000000000000",
+                                    "withPriceUsd": "48.83060925",
+                                    "fromProfile": {
+                                        "name": "MAWK MAWK MAWK",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "DC_20",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x0f7245c4dc80ba34e850bd9521bbb38b59ed8567",
+                                    "to": "0xf772702189b409053a49139806ea0f9e40835e4a",
+                                    "txHash": "0x4c89b1c803391ef97d4c1426770a8ec709ad61412ba2c3b2147f7fc2e599adf9",
+                                    "timestamp": 1643678361,
+                                    "withPrice": "17400000000000000",
+                                    "withPriceUsd": "53.4372705",
+                                    "fromProfile": {
+                                        "name": "Axklein 34",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "MAWK MAWK MAWK",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x63900c5f7b259c312e906c8e51df1122ba942797",
+                                    "to": "0x6cf5344b3f889ef566386e6c0c8945dcf9da5842",
+                                    "txHash": "0x2bae3b85956e2318589ef0380b657a042322e40674abca48e990e4fe0a4248c1",
+                                    "timestamp": 1635389080,
+                                    "withPrice": "93312268518518519",
+                                    "withPriceUsd": "286.57200768923616",
+                                    "fromProfile": {
+                                        "name": "YUEYUE",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Lunacia",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "8957290",
+                        "name": "JASON T",
+                        "image": "https://assets.axieinfinity.com/axies/8957290/axie/axie-full-transparent.png",
+                        "class": "Aquatic",
+                        "breedCount": 3,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 4,
+                            "results": [
+                                {
+                                    "from": "0xb39d3b8154ae47f8717d0afc22e4c483a0e1925b",
+                                    "to": "0x8efde62cdd58fe876cb63a3bb2507340c772453f",
+                                    "txHash": "0x0870926584687e8889c951665302f10ad4178213af5c5c87151bb26fd4449dd3",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "15000000000000000",
+                                    "withPriceUsd": "46.0666125",
+                                    "fromProfile": {
+                                        "name": "BOSS ADAM | 18",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "ISHIDABR",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x2c5c996f8f0d6a35f8d5a0ef618a76ea48ed842a",
+                                    "to": "0xb39d3b8154ae47f8717d0afc22e4c483a0e1925b",
+                                    "txHash": "0xaa25021b293a17f92ef80c98819457d55cb8668cd2ffb4215a10372b7c9776b5",
+                                    "timestamp": 1643952573,
+                                    "withPrice": "11500000000000000",
+                                    "withPriceUsd": "35.31773625",
+                                    "fromProfile": {
+                                        "name": "RC",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "BOSS ADAM | 18",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xd915fbf9d84e93052de6bbf246b8614df839f64f",
+                                    "to": "0xda3e841971c7889a128a1397389b55689f0c0922",
+                                    "txHash": "0x46d0433d93ad7ac5eb04906c9d4ab88c949071dbb2fe50442a7563ab1c1fa842",
+                                    "timestamp": 1637150796,
+                                    "withPrice": "68999000000000000",
+                                    "withPriceUsd": "211.90334639250003",
+                                    "fromProfile": {
+                                        "name": "Lunacian #1099631",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "RC",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x97aa20b7804bd4890dd9457621b4c8dc26b5f64d",
+                                    "to": "0xd915fbf9d84e93052de6bbf246b8614df839f64f",
+                                    "txHash": "0xaafa9d39c0aced2048a73a351ca4277fc9423f7bfab958dfe14580e59b9c39ba",
+                                    "timestamp": 1637115795,
+                                    "withPrice": "62974652777777778",
+                                    "withPriceUsd": "193.40192845572918",
+                                    "fromProfile": {
+                                        "name": "Laika breeding 4",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Lunacian #1099631",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "10089844",
+                        "name": "Revenge Mech",
+                        "image": "https://assets.axieinfinity.com/axies/10089844/axie/axie-full-transparent.png",
+                        "class": "Mech",
+                        "breedCount": 1,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 4,
+                            "results": [
+                                {
+                                    "from": "0x7913fb1fec10ea9b5ca0c3e9849bfc48b15135c8",
+                                    "to": "0x6fcc6384a8dcd8fd4796802493e37d2c2cae2abd",
+                                    "txHash": "0xb9d31d33062fa22ffd87a7ae89582b73b2a7cf1e485b383a9a1913d856bb4739",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "15000000000000000",
+                                    "withPriceUsd": "46.0666125",
+                                    "fromProfile": {
+                                        "name": "Cratee2021",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "SuwiiTiiK",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x35fd3d15d18abd0af3047b82e289f16c5baf0d2f",
+                                    "to": "0x7913fb1fec10ea9b5ca0c3e9849bfc48b15135c8",
+                                    "txHash": "0xb5dfac3189b1c45ea6fcbc8a290548b54eacadaf86a4e2aea763696b76ab1fa1",
+                                    "timestamp": 1644266545,
+                                    "withPrice": "18000000000000000",
+                                    "withPriceUsd": "55.279934999999995",
+                                    "fromProfile": {
+                                        "name": "NTM - +kpito",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Cratee2021",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xc023591a5e862baae0b4a9caaf33d8a15f6e4c99",
+                                    "to": "0x0e36c1ca064501a48f14cc907e3f4287acd68e73",
+                                    "txHash": "0x5dc898ac16534f1b29c87e37987f4cbe1a32020a1d4d7c2b579de81dd322eaec",
+                                    "timestamp": 1641436787,
+                                    "withPrice": "23000000000000000",
+                                    "withPriceUsd": "70.6354725",
+                                    "fromProfile": {
+                                        "name": "Leondre/gg",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "This is the Way | NTM",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x9e9aea50d34c1112abd5c483c10cc1ce4497f217",
+                                    "to": "0xc023591a5e862baae0b4a9caaf33d8a15f6e4c99",
+                                    "txHash": "0x94541254794053d19f9be4ca69ff0db52286c39d0231c74de2e5501f00432184",
+                                    "timestamp": 1639562512,
+                                    "withPrice": "22214178240740741",
+                                    "withPriceUsd": "68.2221294014757",
+                                    "fromProfile": {
+                                        "name": "LCK21",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Leondre/gg",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "985693",
+                        "name": "Nats",
+                        "image": "https://assets.axieinfinity.com/axies/985693/axie/axie-full-transparent.png",
+                        "class": "Beast",
+                        "breedCount": 2,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 2,
+                            "results": [
+                                {
+                                    "from": "0x2a8bdd3547c72a6f65420b387026e4ed184f2ac3",
+                                    "to": "0x613f6c1646c9c4e1476a3fc2c52af5129c1c0f40",
+                                    "txHash": "0x125e6bef4016fc2b27c34780979b02677d753b83ce364225641419d755c1b359",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "26000000000000000",
+                                    "withPriceUsd": "79.848795",
+                                    "fromProfile": {
+                                        "name": "M.C. ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Qwertyuiop#50",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xf00017a9c7e39a34a8acd1e663c28858f31d94d1",
+                                    "to": "0x2a8bdd3547c72a6f65420b387026e4ed184f2ac3",
+                                    "txHash": "0xe440f319ec5f995f9082e7710e51957daece1b00975af3edc4ab106e5c97dce0",
+                                    "timestamp": 1644323714,
+                                    "withPrice": "24000000000000000",
+                                    "withPriceUsd": "73.70658",
+                                    "fromProfile": {
+                                        "name": "Jdin | TRN",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "M.C. ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "6718383",
+                        "name": "💀🐟KILLER🐟💀",
+                        "image": "https://assets.axieinfinity.com/axies/6718383/axie/axie-full-transparent.png",
+                        "class": "Reptile",
+                        "breedCount": 1,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 5,
+                            "results": [
+                                {
+                                    "from": "0x7dd4e8e218c34ad35a4053ea5e81cc65d31a1ca7",
+                                    "to": "0x055254d187672b2a57b488d76b2fab1c1b884cc7",
+                                    "txHash": "0xe5aa012066c5349f1de9fd04d0bd9bfbd0faa635e7e8b906ee63cdcb0cabbc4c",
+                                    "timestamp": 1644324191,
+                                    "withPrice": "18000000000000000",
+                                    "withPriceUsd": "55.279934999999995",
+                                    "fromProfile": {
+                                        "name": "Alejo ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "BUEN#1",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xcda2eca84c51629f5cdf5330ae8a55514f4536e2",
+                                    "to": "0x7dd4e8e218c34ad35a4053ea5e81cc65d31a1ca7",
+                                    "txHash": "0xedd2a962a055d4018fb1f671b1b8ef90b6f4d4ed84d8e690d10b70f3ff79b934",
+                                    "timestamp": 1643848085,
+                                    "withPrice": "11897800925925926",
+                                    "withPriceUsd": "36.53942565711806",
+                                    "fromProfile": {
+                                        "name": "Lunacian #12615319",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Alejo ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xa51f15c6c482f1b4b120e911541ed6f08b8eacda",
+                                    "to": "0xcda2eca84c51629f5cdf5330ae8a55514f4536e2",
+                                    "txHash": "0xd2af7ff6c9f321a33c49bc926a8269d69bb768e44564bd1f94a1bc1d485c2be8",
+                                    "timestamp": 1643793874,
+                                    "withPrice": "10000000000000000",
+                                    "withPriceUsd": "30.711075",
+                                    "fromProfile": {
+                                        "name": "Lunacian #22699197",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Lunacian #12615319",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xcd75d574d1c370422181217fa979267cc4a670e7",
+                                    "to": "0xe679fe441ba9e3cb330c395a9ba4687f40e7f11d",
+                                    "txHash": "0x22390655993daa0e827467f1c19fb57ffc1d7028d31a50e73e3ffbd3a7e20e31",
+                                    "timestamp": 1637031886,
+                                    "withPrice": "60593460648148149",
+                                    "withPriceUsd": "186.08903144748265",
+                                    "fromProfile": {
+                                        "name": "UrsinhoSensual #1497414",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Marcrypto",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xe61456c23f666b311e743f094106fc26ff799ec6",
+                                    "to": "0xcd75d574d1c370422181217fa979267cc4a670e7",
+                                    "txHash": "0x590985dbe582d2577c9383f9af9bfd2976b90d9bf19b29fe27b6b00c60cdec89",
+                                    "timestamp": 1633349541,
+                                    "withPrice": "70345486111111112",
+                                    "withPriceUsd": "216.03854998697915",
+                                    "fromProfile": {
+                                        "name": "Juraxiec Park",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "UrsinhoSensual #1497414",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "2622787",
+                        "name": "back",
+                        "image": "https://assets.axieinfinity.com/axies/2622787/axie/axie-full-transparent.png",
+                        "class": "Aquatic",
+                        "breedCount": 4,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 3,
+                            "results": [
+                                {
+                                    "from": "0xfdbb7f41fe5dc2e07661a09b3910e8a27e5f13fc",
+                                    "to": "0x424b2179943052e2a8f0fc9667dc66460ab21417",
+                                    "txHash": "0x646107d465832e8045573f78dd46fa2aac4b9fc5e6c90611fd4eb7ee09def919",
+                                    "timestamp": 1644324179,
+                                    "withPrice": "12980000000000000",
+                                    "withPriceUsd": "39.86297535",
+                                    "fromProfile": {
+                                        "name": "MM2",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Moii",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xd3104308dc0c7641aa9feae2d50519762e8e4c34",
+                                    "to": "0xfdbb7f41fe5dc2e07661a09b3910e8a27e5f13fc",
+                                    "txHash": "0xc16e9dd3f057cef4ae71962e27586084d8d9f5f579aa20ff5bce9f26b76d306b",
+                                    "timestamp": 1644322502,
+                                    "withPrice": "12000000000000000",
+                                    "withPriceUsd": "36.85329",
+                                    "fromProfile": {
+                                        "name": "jm + ateJ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "MM2",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x0a526a62a1f4560209dbba42ba5b62704652ab9e",
+                                    "to": "0xd3104308dc0c7641aa9feae2d50519762e8e4c34",
+                                    "txHash": "0xced5bac4cbbf136e991044dfe9d4e9ff3fba506ea12846ec60d4dbf2a02d04c7",
+                                    "timestamp": 1644312833,
+                                    "withPrice": "11995455555555556",
+                                    "withPriceUsd": "36.83933352258334",
+                                    "fromProfile": {
+                                        "name": "XcHunter31 |Lyn Sayson",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "jm + ateJ",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "7161652",
+                        "name": "Dont touch my birdie",
+                        "image": "https://assets.axieinfinity.com/axies/7161652/axie/axie-full-transparent.png",
+                        "class": "Bird",
+                        "breedCount": 3,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 4,
+                            "results": [
+                                {
+                                    "from": "0xe6f178e6a76e9721b17d605f8f33186e840bc3e9",
+                                    "to": "0xb36b44cd2506ef8fa8dc5399fe7b2a9acb6be5eb",
+                                    "txHash": "0xafb1e0e370c29d12a94dcfe4f8745d8f2c6cf765491dee7037e6df0e827dd1bd",
+                                    "timestamp": 1644324179,
+                                    "withPrice": "13000000000000000",
+                                    "withPriceUsd": "39.9243975",
+                                    "fromProfile": {
+                                        "name": "Miracle",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "polo slp",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x3692a034f41b8c186323fb74f92eb55c129b6a3c",
+                                    "to": "0xe6f178e6a76e9721b17d605f8f33186e840bc3e9",
+                                    "txHash": "0x075251aa9e666c08071d1730a5c6b9fe094a1be347bcccc65735c1ca92311f9e",
+                                    "timestamp": 1638773444,
+                                    "withPrice": "33000000000000000",
+                                    "withPriceUsd": "101.34654750000001",
+                                    "fromProfile": {
+                                        "name": "Awts.",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Miracle",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xad0c4fb44c2aa7585905434ae7184017526806e7",
+                                    "to": "0x3692a034f41b8c186323fb74f92eb55c129b6a3c",
+                                    "txHash": "0x8b23493ad6373a4eda1405caa012f50b894acf466b027cbcf93c17657ced6358",
+                                    "timestamp": 1637838012,
+                                    "withPrice": "50000000000000000",
+                                    "withPriceUsd": "153.555375",
+                                    "fromProfile": {
+                                        "name": "Bowisrich",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Awts.",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x7f46149ee6225fed28e92bdee3c57827d7cdcb8a",
+                                    "to": "0xad0c4fb44c2aa7585905434ae7184017526806e7",
+                                    "txHash": "0xde748bb906738bba10eb17ed1eec05529936daffca8eddb64554f396779cac1c",
+                                    "timestamp": 1633790277,
+                                    "withPrice": "82502507716049383",
+                                    "withPriceUsd": "253.37407021556714",
+                                    "fromProfile": {
+                                        "name": "Rosath Birds",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Bowisrich",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "11035806",
+                        "name": "Axie #11035806",
+                        "image": "https://assets.axieinfinity.com/axies/11035806/axie/axie-full-transparent.png",
+                        "class": "Plant",
+                        "breedCount": 0,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 1,
+                            "results": [
+                                {
+                                    "from": "0x913512620800e32973d78b0385439de28d3d5cf7",
+                                    "to": "0x67ad0b6ab4cf735670ebb48e9c7d63f498ec2f55",
+                                    "txHash": "0x85bde191fe81f74039a38a414c54ba5536652abf68b13bd2596af3557dabb5c1",
+                                    "timestamp": 1644324179,
+                                    "withPrice": "45000000000000000",
+                                    "withPriceUsd": "138.1998375",
+                                    "fromProfile": {
+                                        "name": "Yeezus",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Juice | Axieomatic",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    },
+                    {
+                        "id": "5692354",
+                        "name": "45spd termi genes",
+                        "image": "https://assets.axieinfinity.com/axies/5692354/axie/axie-full-transparent.png",
+                        "class": "Reptile",
+                        "breedCount": 0,
+                        "__typename": "Axie",
+                        "transferHistory": {
+                            "total": 3,
+                            "results": [
+                                {
+                                    "from": "0x673457c73d855afb8f26c8415e03a6c8909c728b",
+                                    "to": "0x975a6702e9dd8bce2e1e687b09da107d6bd87e5a",
+                                    "txHash": "0xbc1f7db69fdb527d41bcc4fc91fa5b8645eacb86a538c0c249c31289c6c7f159",
+                                    "timestamp": 1644324179,
+                                    "withPrice": "12000000000000000",
+                                    "withPriceUsd": "36.85329",
+                                    "fromProfile": {
+                                        "name": "Isko #1",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Alamat",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0x31e40d5c8ced99e955d878395ecb0d6674f89dd1",
+                                    "to": "0x673457c73d855afb8f26c8415e03a6c8909c728b",
+                                    "txHash": "0x95f0ac74601202a20288afa3b887197400fd88195d7b63eb86c1eadfad4ed385",
+                                    "timestamp": 1632143015,
+                                    "withPrice": "50000000000000000",
+                                    "withPriceUsd": "153.555375",
+                                    "fromProfile": {
+                                        "name": "Susheesh",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Isko #1",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                },
+                                {
+                                    "from": "0xc94c740a4234f0cf692c2bb00d96f3e363541f19",
+                                    "to": "0x31e40d5c8ced99e955d878395ecb0d6674f89dd1",
+                                    "txHash": "0xf9aec4e44dfc1232529e0a592086e215010d144ba92e8cc006551ac62594dd9a",
+                                    "timestamp": 1631514424,
+                                    "withPrice": "59936666666666667",
+                                    "withPriceUsd": "184.07194652500002",
+                                    "fromProfile": {
+                                        "name": "2. Yuyas | xBlade",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "toProfile": {
+                                        "name": "Susheesh",
+                                        "__typename": "PublicProfile"
+                                    },
+                                    "__typename": "TransferRecord"
+                                }
+                            ],
+                            "__typename": "TransferRecords"
+                        }
+                    }
+                ],
+                "__typename": "Axies"
+            },
+            "__typename": "SettledAuctions"
+        }
+    }
+}

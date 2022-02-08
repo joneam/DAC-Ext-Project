@@ -1,0 +1,187 @@
+{
+    "data": {
+        "axie": {
+            "id": "1621247",
+            "image": "https://assets.axieinfinity.com/axies/1621247/axie/axie-full-transparent.png",
+            "class": "Beast",
+            "chain": "ronin",
+            "name": "Axie #1621247",
+            "genes": "0x61c7200044110820080200800651006002410080060180600401002",
+            "owner": "0xe85a815ce4c9908dd1d19f719c441b6a53d07ff0",
+            "birthDate": 1625594736,
+            "bodyShape": "Normal",
+            "sireId": 1316802,
+            "sireClass": "Beast",
+            "matronId": 1316795,
+            "matronClass": "Beast",
+            "stage": 4,
+            "title": "",
+            "breedCount": 3,
+            "level": 1,
+            "figure": {
+                "atlas": "https://assets.axieinfinity.com/axies/1621247/axie/axie.atlas",
+                "model": "https://assets.axieinfinity.com/axies/1621247/axie/axie.json",
+                "image": "https://assets.axieinfinity.com/axies/1621247/axie/axie.png",
+                "__typename": "AxieFigure"
+            },
+            "parts": [
+                {
+                    "id": "eyes-neo",
+                    "name": "Neo",
+                    "class": "Bug",
+                    "type": "Eyes",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [],
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "ears-innocent-lamb",
+                    "name": "Innocent Lamb",
+                    "class": "Beast",
+                    "type": "Ears",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [],
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "back-jaguar",
+                    "name": "Jaguar",
+                    "class": "Beast",
+                    "type": "Back",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [
+                        {
+                            "id": "beast-back-06",
+                            "name": "Nitro Leap",
+                            "attack": 120,
+                            "defense": 35,
+                            "energy": 1,
+                            "description": "Always strike first if this Axie is in Last Stand.",
+                            "backgroundUrl": "https://cdn.axieinfinity.com/game/cards/base/beast-back-06.png",
+                            "effectIconUrl": "https://cdn.axieinfinity.com/game/cards/effect-icons/strike-first.png",
+                            "__typename": "AxieCardAbility"
+                        }
+                    ],
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "mouth-axie-kiss",
+                    "name": "Axie Kiss",
+                    "class": "Beast",
+                    "type": "Mouth",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [
+                        {
+                            "id": "beast-mouth-08",
+                            "name": "Death Mark",
+                            "attack": 100,
+                            "defense": 30,
+                            "energy": 1,
+                            "description": "Apply Lethal to target if this Axie's HP is below 30%.",
+                            "backgroundUrl": "https://cdn.axieinfinity.com/game/cards/base/beast-mouth-08.png",
+                            "effectIconUrl": "https://cdn.axieinfinity.com/game/cards/effect-icons/lethal.png",
+                            "__typename": "AxieCardAbility"
+                        }
+                    ],
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "horn-little-branch",
+                    "name": "Little Branch",
+                    "class": "Beast",
+                    "type": "Horn",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [
+                        {
+                            "id": "beast-horn-02",
+                            "name": "Branch Charge",
+                            "attack": 125,
+                            "defense": 25,
+                            "energy": 1,
+                            "description": "Increase critical chance by 20% if comboed with two plant cards. ",
+                            "backgroundUrl": "https://cdn.axieinfinity.com/game/cards/base/beast-horn-02.png",
+                            "effectIconUrl": "https://cdn.axieinfinity.com/game/cards/effect-icons/critical.png",
+                            "__typename": "AxieCardAbility"
+                        }
+                    ],
+                    "__typename": "AxiePart"
+                },
+                {
+                    "id": "tail-rice",
+                    "name": "Rice",
+                    "class": "Beast",
+                    "type": "Tail",
+                    "specialGenes": null,
+                    "stage": 1,
+                    "abilities": [
+                        {
+                            "id": "beast-tail-04",
+                            "name": "Night Steal",
+                            "attack": 90,
+                            "defense": 20,
+                            "energy": 1,
+                            "description": "Steal 1 energy from your opponent when comboed with another card.",
+                            "backgroundUrl": "https://cdn.axieinfinity.com/game/cards/base/beast-tail-04.png",
+                            "effectIconUrl": "https://cdn.axieinfinity.com/game/cards/effect-icons/gain-energy.png",
+                            "__typename": "AxieCardAbility"
+                        }
+                    ],
+                    "__typename": "AxiePart"
+                }
+            ],
+            "stats": {
+                "hp": 32,
+                "speed": 40,
+                "skill": 31,
+                "morale": 61,
+                "__typename": "AxieStats"
+            },
+            "auction": null,
+            "ownerProfile": {
+                "name": "PlayToEarn.com",
+                "__typename": "PublicProfile"
+            },
+            "battleInfo": {
+                "banned": false,
+                "banUntil": null,
+                "level": 0,
+                "__typename": "AxieBattleInfo"
+            },
+            "children": [
+                {
+                    "id": "2011759",
+                    "name": "Axie #2011759",
+                    "class": "Beast",
+                    "image": "https://assets.axieinfinity.com/axies/2011759/axie/axie-full-transparent.png",
+                    "title": "",
+                    "stage": 4,
+                    "__typename": "Axie"
+                },
+                {
+                    "id": "2011851",
+                    "name": "Axie #2011851",
+                    "class": "Beast",
+                    "image": "https://assets.axieinfinity.com/axies/2011851/axie/axie-full-transparent.png",
+                    "title": "",
+                    "stage": 4,
+                    "__typename": "Axie"
+                },
+                {
+                    "id": "2011690",
+                    "name": "Junimo",
+                    "class": "Beast",
+                    "image": "https://assets.axieinfinity.com/axies/2011690/axie/axie-full-transparent.png",
+                    "title": "",
+                    "stage": 4,
+                    "__typename": "Axie"
+                }
+            ],
+            "__typename": "Axie"
+        }
+    }
+}
