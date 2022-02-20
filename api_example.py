@@ -28,3 +28,6 @@ def get_axie_brief_list(from_, size, sort, autionType):
   r = requests.post(endpoint, data=payload)
 
   return r.text
+
+print(get_axie_brief_list())
+
