@@ -24,8 +24,8 @@ def get_gene_hexcode(axie_id):
   r = requests.post(endpoint, json=payload, headers={"Content-Type" : "application/json"})
   dict = r.text 
   
-  return dict
-  #return dict[57:-20]
+  #return dict
+  return dict[57:-20]
 
 def parse_gene_hexcode(gene_hex):
   '''
@@ -40,7 +40,7 @@ def parse_gene_hexcode(gene_hex):
   
   pprint.pprint(gene.genes)
 
-#print(get_gene_hexcode())
-axie_details = json.loads(get_gene_hexcode(1621247))
-pprint.pprint(axie_details)
-#parse_gene_hexcode('0x61c7200044110820080200800651006002410080060180600401002')
+# axie_details = get_gene_hexcode(1621247)
+# pprint.pprint(axie_details)
+
+parse_gene_hexcode('0x61c7200044110820080200800651006002410080060180600401002')
