@@ -14,18 +14,20 @@ def get_gene_hexcode(axie_id):
   payload = {
   "operationName": "GetAxieDetail",
     "variables": {
-      "axieId": f"{axie_id}"
+      "axieId": "1621247"
     },
-    "query": "query GetAxieDetail($axieId: ID!) {\n  axie(axieId: $axieId) {\n    ...AxieDetail\n  }\n}\n\nfragment AxieDetail on Axie {\n  class\n  chain\n  genes\n  class\n  breedCount\n}\n"
+    "query": "query GetAxieDetail($axieId: ID!) {\n  axie(axieId: $axieId) {\n    ...AxieDetail\n  }\n}\n\nfragment AxieDetail on Axie {\n  genes\n  breedCount\n}\n"
   }
 
   endpoint = "https://graphql-gateway.axieinfinity.com/graphql"
 
   r = requests.post(endpoint, json=payload, headers={"Content-Type" : "application/json"})
   dict = r.text 
+  dict2 = json.loads(dict)
   
+  return dict2.get('data').get('axie').get('genes')
   #return dict
-  return dict[57:-20]
+  #return dict[26:-20]
 
 def parse_gene_hexcode(gene_hex):
   '''
@@ -38,9 +40,33 @@ def parse_gene_hexcode(gene_hex):
   hex_type = 256
   gene = AxieGene(hex_string, hex_type)
   
-  pprint.pprint(gene.genes)
+  #pprint.pprint(gene.genes)
+  return gene.genes
 
-# axie_details = get_gene_hexcode(1621247)
-# pprint.pprint(axie_details)
+def cal_breeding_prob(parent1, parent2):
+  '''
+    Calculate the probability of breeding a target axie given 2 parent axies.
+    Params:
+      - parent1 : axie id for parent #1
+      - parent2 : axie id for parent #2 
+      - target : list of genes for target axie
+  '''
 
-parse_gene_hexcode('0x61c7200044110820080200800651006002410080060180600401002')
+  p1_code = get_gene_hexcode(parent1)
+  p2_code = get_gene_hexcode(parent2)
+
+  p1_gene = parse_gene_hexcode(p1_code)
+  p2_gene = parse_gene_hexcode(p2_code)    
+  
+  # p1_dict = json.loads(p1_gene)
+  # p2_dict = json.loads(p2_gene)
+  
+  p1_list = p1_gene.get('back','ears').get('d')
+  p2_list = p2_gene.get('back').get('d')
+  
+  print(p1_list,p2_list)
+
+
+#print(get_gene_hexcode(1621247))
+#parse_gene_hexcode('0x61c7200044110820080200800651006002410080060180600401002')
+cal_breeding_prob(123,122)
