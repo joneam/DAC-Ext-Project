@@ -61,11 +61,54 @@ def cal_breeding_prob(parent1, parent2):
   # p1_dict = json.loads(p1_gene)
   # p2_dict = json.loads(p2_gene)
   
-  p1_list = p1_gene.get('back','ears').get('d')
-  p2_list = p2_gene.get('back').get('d')
+  p1_list = []
+  p2_list = []
+    
+  p1_list.append(p1_gene.get('back').get('d').get('name'))
+  p1_list.append(p1_gene.get('ears').get('d').get('name'))
+  p1_list.append(p1_gene.get('eyes').get('d').get('name'))
+  p1_list.append(p1_gene.get('horn').get('d').get('name'))
+  p1_list.append(p1_gene.get('mouth').get('d').get('name'))
+  p1_list.append(p1_gene.get('tail').get('d').get('name'))
   
-  print(p1_list,p2_list)
+  p1_list.append(p1_gene.get('back').get('r1').get('name'))
+  p1_list.append(p1_gene.get('ears').get('r1').get('name'))
+  p1_list.append(p1_gene.get('eyes').get('r1').get('name'))
+  p1_list.append(p1_gene.get('horn').get('r1').get('name'))
+  p1_list.append(p1_gene.get('mouth').get('r1').get('name'))
+  p1_list.append(p1_gene.get('tail').get('r1').get('name'))
+  
+  p1_list.append(p1_gene.get('back').get('r2').get('name'))
+  p1_list.append(p1_gene.get('ears').get('r2').get('name'))
+  p1_list.append(p1_gene.get('eyes').get('r2').get('name'))
+  p1_list.append(p1_gene.get('horn').get('r2').get('name'))
+  p1_list.append(p1_gene.get('mouth').get('r2').get('name'))
+  p1_list.append(p1_gene.get('tail').get('r2').get('name'))
+  
+  p2_list.append(p2_gene.get('back').get('d').get('name'))
+  p2_list.append(p2_gene.get('ears').get('d').get('name'))
+  p2_list.append(p2_gene.get('eyes').get('d').get('name'))
+  p2_list.append(p2_gene.get('horn').get('d').get('name'))
+  p2_list.append(p2_gene.get('mouth').get('d').get('name'))
+  p2_list.append(p2_gene.get('tail').get('d').get('name'))
+  
+  p2_list.append(p2_gene.get('back').get('r1').get('name'))
+  p2_list.append(p2_gene.get('ears').get('r1').get('name'))
+  p2_list.append(p2_gene.get('eyes').get('r1').get('name'))
+  p2_list.append(p2_gene.get('horn').get('r1').get('name'))
+  p2_list.append(p2_gene.get('mouth').get('r1').get('name'))
+  p2_list.append(p2_gene.get('tail').get('r1').get('name'))
+  
+  p2_list.append(p2_gene.get('back').get('r2').get('name'))
+  p2_list.append(p2_gene.get('ears').get('r2').get('name'))
+  p2_list.append(p2_gene.get('eyes').get('r2').get('name'))
+  p2_list.append(p2_gene.get('horn').get('r2').get('name'))
+  p2_list.append(p2_gene.get('mouth').get('r2').get('name'))
+  p2_list.append(p2_gene.get('tail').get('r2').get('name'))
 
+  p1p2_set = set(p1_list + p2_list)
+  
+  print(p1p2_set)
 
 #print(get_gene_hexcode(1621247))
 #parse_gene_hexcode('0x61c7200044110820080200800651006002410080060180600401002')
